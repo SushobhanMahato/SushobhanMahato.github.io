@@ -382,12 +382,20 @@ h1{
       }
     
  nav{
-    height:5vh;
+    height:6vh;
 }
 .item{
-    padding: 0;
+    padding: 17px 0px 0px 0px;
     margin: 0;
-    font-size: 14em;
+    height: 6vh;
+    font-size: 18em;
+}
+.nav-links{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 .logo{
     width: 100vw;
@@ -428,7 +436,6 @@ h1{
 #aboutme{
     margin: 10px 0px;
      height:30vh;
-     font-size: 24.5px;
      letter-spacing: 1px;
      display: flex;
      flex-direction: column;
@@ -436,8 +443,8 @@ h1{
  }
  .hi{ 
     width:75%;
-    font-size: 1.05em;
     font-weight: 500;
+    font-size: 1.05em;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -582,6 +589,9 @@ h1{
 @media (max-width: 340px){
     #aboutme{
         height: 35vh;
-        
+
+    }
+    .gg h1{
+       font-size: 16px;
     }
 }
