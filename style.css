@@ -530,6 +530,8 @@ h1{
     margin-top: 20px;
     padding-right: 0px;
     margin-right: 0px;
+    border-radius: 15px;
+    padding-right: 12px;
 }
 .box1-1{
     width: 50%;
@@ -548,7 +550,7 @@ h1{
     
 }
 .btn2 {
-
+    background: rgb(228, 195, 195);
     padding: 3px 3px;
     font-size: 0.7rem;
     border-radius: 5px;
@@ -566,7 +568,8 @@ h1{
     margin-top: 35px;
     padding-left: 0px;
     margin-left: 0px;
- 
+    border-radius: 15px;
+    padding-left: 12px;
 }
 .box2-2{
     width: 50%;
@@ -594,6 +597,14 @@ h1{
 .email{
     font-size: 1.3rem;
     text-decoration: none;
+}
+.box1:hover{
+    transform: perspective(3000px) rotateY(-12deg);
+    transition: transform 600ms ease;
+}
+.box2:hover{
+    transform: perspective(3000px) rotateY(12deg);
+    transition: transform 600ms ease;
 }
 }
 @media (max-width: 340px){
