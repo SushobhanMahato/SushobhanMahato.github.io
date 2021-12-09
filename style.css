@@ -108,7 +108,7 @@ h1{
 }
 #aboutme{
     width: 100%;
-   margin: 30px;
+   margin: 30px 0px;
     height:50vh;
     display:flex;
     flex-direction: column;
@@ -578,4 +578,10 @@ h1{
 .footers{
     font-size: 1.3rem;
 }
+}
+@media (max-width: 340px){
+    #aboutme{
+        height: 35vh;
+        
+    }
 }
